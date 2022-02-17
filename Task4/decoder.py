@@ -41,3 +41,4 @@ encoded_container.close()
 
 
 print('Сообщение расшифровано')
+input()

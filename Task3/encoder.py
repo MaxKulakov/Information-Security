@@ -44,3 +44,4 @@ encoded_container.close()
 
 
 print('Сообщение зашифровано')
+input()

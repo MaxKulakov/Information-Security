@@ -24,3 +24,4 @@ for i in range (0, len(message)):
 
 
 print('Зашифрованное сообщение: ' + encoded_message)
+input()

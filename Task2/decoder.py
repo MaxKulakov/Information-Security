@@ -34,3 +34,4 @@ message.close()
 
 
 print('Сообщение расшифровано')
+input()

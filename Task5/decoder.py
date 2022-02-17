@@ -25,3 +25,4 @@ for i in range (0, len(message)):
 
 
 print('Расшифрованное сообщение: ' + decoded_message)
+input()

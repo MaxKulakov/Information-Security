@@ -32,3 +32,4 @@ for file_path in path_to_files:
 print('Пути к файлам с заданной сигнатурой: ')
 for x in files_with_signatures:
     print(x)
+input()
