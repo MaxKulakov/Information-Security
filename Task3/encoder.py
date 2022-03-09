@@ -15,8 +15,9 @@ encoded_container = open(path_to_encoded_container, 'w', encoding='cp1251')
 # Получаем бинарную строку из сообщения, которое нужно зашифровать
 # Для этого каждый байт сообщения преобразуем в бинарный вид,
 # Убираем два первых символа и дополняем до длины 8 байт
+# С помощью strip убираем лишние пробелы в начале и конце строки
 binary_string = ''
-bytes_of_message = message.encode('cp1251')
+bytes_of_message = message.encode('cp1251').strip()
 for byte in bytes_of_message:
     binary_string += bin(byte)[2:].zfill(8)
 
